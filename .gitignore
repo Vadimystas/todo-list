@@ -1,0 +1,31 @@
+# Binaries
+/server
+/cmd/server/server
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Config & Secrets
+.env
+.env.*
+!.env.example
+
+# Databases & GeoIP
+*.mmdb
+/data/
+
+# Logs
+*.log
+/logs/
+
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker
+.docker/
